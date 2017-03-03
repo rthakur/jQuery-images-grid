@@ -197,15 +197,7 @@
         this.$element.find('.imgs-grid-image:last .image-wrap').append(
             $('<div>', {
                 class: 'view-all'
-            }).append(
-                $('<span>', {
-                    class: 'view-all-cover',
-                }),
-                $('<span>', {
-                    class: 'view-all-text',
-                    text: opts.getViewAllText(opts.images.length)
-                })
-            )
+            })
         );
     };
 
